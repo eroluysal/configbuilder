@@ -1,9 +1,9 @@
 import os
 
-from configbuilder.builder.base import BaseYmlBuilder
+from configbuilder.builder.travis import TravisBuilder
 
 
-print BaseYmlBuilder(
+print TravisBuilder(
     language='python',
     python=['2.7', '3.5'],
     install=[
